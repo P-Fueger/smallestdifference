@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/apiguardian-api-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/assertj-core-3.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-platform-engine-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/opentest4j-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/byte-buddy-agent-1.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-jupiter-5.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-platform-commons-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-platform-launcher-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-jupiter-api-5.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-jupiter-engine-5.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/objenesis-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/byte-buddy-1.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/junit-jupiter-params-5.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/testprojekt_ohne_maven/lib/mockito-core-3.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
