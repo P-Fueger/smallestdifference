@@ -5,8 +5,8 @@ import java.util.Collections;
 
 public class Smallestdifference implements ISmallestdifference {
 
-    ArrayList<Integer> result;
-    int zahl1, zahl2;
+    public ArrayList<Integer> result;
+    public int zahl1, zahl2;
 
     public Smallestdifference() {
         result = new ArrayList<>();
