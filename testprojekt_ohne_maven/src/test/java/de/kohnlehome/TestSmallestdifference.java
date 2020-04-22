@@ -13,6 +13,7 @@ public class TestSmallestdifference {
 
     @BeforeEach
     public void init(){
+        // ==== ARRANGE ====
         smallestdifference = new Smallestdifference();
     }
 
