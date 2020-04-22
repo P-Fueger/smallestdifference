@@ -46,4 +46,14 @@ public class TestSmallestdifference {
         // ===== ASSERT =====
         assertThat(result).isEqualTo(1);
     }
+
+    @Test
+    public void differenceTest_1_mit_1(){
+        // ===== ACT =====
+        int[] array1 = {1};
+        int[] array2 = {1};
+        int result = smallestdifference.difference(array1, array2);
+        // ===== ASSERT =====
+        assertThat(result).isEqualTo(0);
+    }
 }
