@@ -1,28 +1,24 @@
 package de.kohnlehome;
 
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.mockito.Mockito.*;
+
 
 
 public class TestSmallestdifference {
-    private MyInterface myInterface;
+    public ISmallestdifference smallestdifference;
 
 
 
     @Test
-    public void test(){
+    public void difference_1_3_15_11_2_mit_23_127_235_19_8(){
         // ===== ACT =====
-        // zu testende Methode aufrufen
-        int x = myInterface.method(3);
-
+        int[] array1 = {1,3,15,11,2};
+        int[] array2 = {23,127,235,29,8};
+        int result = smallestdifference.difference(array1, array2);
         // ===== ASSERT =====
-        // Überprüfen, ob Methode richtigen Wert zurückgibt
-        assertThat(x).isEqualTo(7);
-
-        // Überprüfen, ob Methoden des Testdoubles aufgerufen wurden
-        verify(myInterface).method(3);
+        assertThat(result).isEqualTo(3);
     }
 }

@@ -1,5 +1,5 @@
 package de.kohnlehome;
 
 public interface ISmallestdifference {
-    int method(int[] n, int[] m) ;
+    int difference(int[] n, int[] m);
 }
